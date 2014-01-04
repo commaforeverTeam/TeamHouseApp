@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
  
 @interface CustomNavigationController : UINavigationController<UINavigationControllerDelegate,UIGestureRecognizerDelegate>
-
+{
+    NSDictionary * mydict;
+}
 @end
