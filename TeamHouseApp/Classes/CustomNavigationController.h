@@ -9,8 +9,5 @@
 #import <UIKit/UIKit.h>
  
 @interface CustomNavigationController : UINavigationController<UINavigationControllerDelegate,UIGestureRecognizerDelegate>
-{
-    @"liuflalang";
-}
 
 @end
