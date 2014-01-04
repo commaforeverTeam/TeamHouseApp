@@ -10,8 +10,5 @@
 #import "RequestHelp.h"
 #import "ASIHTTPRequestDelegate.h"
 @interface LoadViewController : CustomViewController<DataRequestDelegate,ASIHTTPRequestDelegate>
-{
-    NSString * _str;
-}
 
 @end
