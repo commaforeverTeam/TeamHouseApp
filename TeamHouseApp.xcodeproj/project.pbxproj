@@ -68,6 +68,9 @@
 		18C22B52187296EB00109A00 /* PortTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C22B50187296EB00109A00 /* PortTestViewController.m */; };
 		18C22B53187296EB00109A00 /* PortTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C22B51187296EB00109A00 /* PortTestViewController.xib */; };
 		F248F62A1877F60000DD1846 /* libbaidumapapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F248F6291877F60000DD1846 /* libbaidumapapi.a */; };
+		F27BB570187BCCF8008DBCDB /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27BB56F187BCCF8008DBCDB /* CustomTabBarViewController.m */; };
+		F27BB572187BD5E8008DBCDB /* tabBarBackImage_Cn.png in Resources */ = {isa = PBXBuildFile; fileRef = F27BB571187BD5E8008DBCDB /* tabBarBackImage_Cn.png */; };
+		F27BB575187BDA2A008DBCDB /* CustomTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F27BB574187BDA2A008DBCDB /* CustomTabBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +215,11 @@
 		18C22B50187296EB00109A00 /* PortTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortTestViewController.m; sourceTree = "<group>"; };
 		18C22B51187296EB00109A00 /* PortTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortTestViewController.xib; sourceTree = "<group>"; };
 		F248F6291877F60000DD1846 /* libbaidumapapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbaidumapapi.a; sourceTree = "<group>"; };
+		F27BB56E187BCCF8008DBCDB /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
+		F27BB56F187BCCF8008DBCDB /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
+		F27BB571187BD5E8008DBCDB /* tabBarBackImage_Cn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBackImage_Cn.png; sourceTree = "<group>"; };
+		F27BB573187BDA2A008DBCDB /* CustomTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarView.h; sourceTree = "<group>"; };
+		F27BB574187BDA2A008DBCDB /* CustomTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,31 +339,8 @@
 		185246141867CC0500CD8A66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1852461A1867CCAC00CD8A66 /* CustomNavigationController.h */,
-				1852461B1867CCAC00CD8A66 /* CustomNavigationController.m */,
-				1852461D1867CCCC00CD8A66 /* CustomViewController.h */,
-				1852461E1867CCCC00CD8A66 /* CustomViewController.m */,
-				185246201867CD1600CD8A66 /* LoadViewController.h */,
-				185246211867CD1600CD8A66 /* LoadViewController.m */,
-				185246221867CD1600CD8A66 /* LoadViewController.xib */,
-				187CC7C5187687B100AE2792 /* ChangePswViewController.h */,
-				187CC7C6187687B100AE2792 /* ChangePswViewController.m */,
-				187CC7C7187687B100AE2792 /* ChangePswViewController.xib */,
-				184D625F1872A76D003FC154 /* UserInfoViewController.h */,
-				184D62601872A76D003FC154 /* UserInfoViewController.m */,
-				184D62611872A76D003FC154 /* UserInfoViewController.xib */,
-				184D62731872AA68003FC154 /* PosionInfoViewController.h */,
-				184D62741872AA68003FC154 /* PosionInfoViewController.m */,
-				184D62751872AA68003FC154 /* PosionInfoViewController.xib */,
-				184D62641872A7D3003FC154 /* HouseSourceViewController.h */,
-				184D62651872A7D3003FC154 /* HouseSourceViewController.m */,
-				184D62661872A7D3003FC154 /* HouseSourceViewController.xib */,
-				184D62691872A899003FC154 /* HouseRentViewController.h */,
-				184D626A1872A899003FC154 /* HouseRentViewController.m */,
-				184D626B1872A899003FC154 /* HouseRentViewController.xib */,
-				184D626E1872A8AB003FC154 /* HouseSellViewController.h */,
-				184D626F1872A8AB003FC154 /* HouseSellViewController.m */,
-				184D62701872A8AB003FC154 /* HouseSellViewController.xib */,
+				F27BB56C187B9714008DBCDB /* Controllers */,
+				F27BB56B187B9707008DBCDB /* Custom */,
 				1815EEC61876556000932072 /* CommenDataView.h */,
 				1815EEC71876556000932072 /* CommenDataView.m */,
 			);
@@ -382,6 +367,7 @@
 		185246161867CC0500CD8A66 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
+				F27BB571187BD5E8008DBCDB /* tabBarBackImage_Cn.png */,
 				18A7C76D186D953900C9067B /* test.png */,
 			);
 			name = Sourses;
@@ -545,6 +531,57 @@
 			path = Jsonkit;
 			sourceTree = "<group>";
 		};
+		F27BB56B187B9707008DBCDB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F27BB56D187BCC9A008DBCDB /* TabBar */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		F27BB56C187B9714008DBCDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1852461A1867CCAC00CD8A66 /* CustomNavigationController.h */,
+				1852461B1867CCAC00CD8A66 /* CustomNavigationController.m */,
+				1852461D1867CCCC00CD8A66 /* CustomViewController.h */,
+				1852461E1867CCCC00CD8A66 /* CustomViewController.m */,
+				185246201867CD1600CD8A66 /* LoadViewController.h */,
+				185246211867CD1600CD8A66 /* LoadViewController.m */,
+				185246221867CD1600CD8A66 /* LoadViewController.xib */,
+				187CC7C5187687B100AE2792 /* ChangePswViewController.h */,
+				187CC7C6187687B100AE2792 /* ChangePswViewController.m */,
+				187CC7C7187687B100AE2792 /* ChangePswViewController.xib */,
+				184D625F1872A76D003FC154 /* UserInfoViewController.h */,
+				184D62601872A76D003FC154 /* UserInfoViewController.m */,
+				184D62611872A76D003FC154 /* UserInfoViewController.xib */,
+				184D62731872AA68003FC154 /* PosionInfoViewController.h */,
+				184D62741872AA68003FC154 /* PosionInfoViewController.m */,
+				184D62751872AA68003FC154 /* PosionInfoViewController.xib */,
+				184D62641872A7D3003FC154 /* HouseSourceViewController.h */,
+				184D62651872A7D3003FC154 /* HouseSourceViewController.m */,
+				184D62661872A7D3003FC154 /* HouseSourceViewController.xib */,
+				184D62691872A899003FC154 /* HouseRentViewController.h */,
+				184D626A1872A899003FC154 /* HouseRentViewController.m */,
+				184D626B1872A899003FC154 /* HouseRentViewController.xib */,
+				184D626E1872A8AB003FC154 /* HouseSellViewController.h */,
+				184D626F1872A8AB003FC154 /* HouseSellViewController.m */,
+				184D62701872A8AB003FC154 /* HouseSellViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F27BB56D187BCC9A008DBCDB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F27BB573187BDA2A008DBCDB /* CustomTabBarView.h */,
+				F27BB574187BDA2A008DBCDB /* CustomTabBarView.m */,
+				F27BB56E187BCCF8008DBCDB /* CustomTabBarViewController.h */,
+				F27BB56F187BCCF8008DBCDB /* CustomTabBarViewController.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -621,6 +658,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184D62771872AA68003FC154 /* PosionInfoViewController.xib in Resources */,
+				F27BB572187BD5E8008DBCDB /* tabBarBackImage_Cn.png in Resources */,
 				185246241867CD1600CD8A66 /* LoadViewController.xib in Resources */,
 				1876EC9A1867D8F400750D72 /* mapapi.bundle in Resources */,
 				185245F01867CB5000CD8A66 /* InfoPlist.strings in Resources */,
@@ -656,6 +694,7 @@
 				185246DC1867D03200CD8A66 /* ASIAuthenticationDialog.m in Sources */,
 				18C22B52187296EB00109A00 /* PortTestViewController.m in Sources */,
 				185246E91867D03200CD8A66 /* RequestHelp.m in Sources */,
+				F27BB575187BDA2A008DBCDB /* CustomTabBarView.m in Sources */,
 				185246E71867D03200CD8A66 /* MLoadingView.m in Sources */,
 				185246DD1867D03200CD8A66 /* ASIDataCompressor.m in Sources */,
 				185246ED1867D03200CD8A66 /* SDNetworkActivityIndicator.m in Sources */,
@@ -670,6 +709,7 @@
 				185246DF1867D03200CD8A66 /* ASIDownloadCache.m in Sources */,
 				185246EC1867D03200CD8A66 /* SDImageView+SDWebCache.m in Sources */,
 				185246E21867D03200CD8A66 /* ASIInputStream.m in Sources */,
+				F27BB570187BCCF8008DBCDB /* CustomTabBarViewController.m in Sources */,
 				185246DE1867D03200CD8A66 /* ASIDataDecompressor.m in Sources */,
 				185246EB1867D03200CD8A66 /* SDDataCache.m in Sources */,
 				185246EE1867D03200CD8A66 /* SDWebDataDownloader.m in Sources */,
