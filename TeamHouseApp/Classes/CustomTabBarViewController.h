@@ -15,6 +15,7 @@
 }
 @property (nonatomic,weak) NSArray * controllers;
 
+//隐藏和显示自定义tabbar
 - (void)hidenTabBarAndCustomBar:(BOOL)isHiden;
 
 @end
