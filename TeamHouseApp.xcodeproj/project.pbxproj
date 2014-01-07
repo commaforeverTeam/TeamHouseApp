@@ -67,6 +67,8 @@
 		18A7C76E186D953900C9067B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A7C76D186D953900C9067B /* test.png */; };
 		18C22B52187296EB00109A00 /* PortTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C22B50187296EB00109A00 /* PortTestViewController.m */; };
 		18C22B53187296EB00109A00 /* PortTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C22B51187296EB00109A00 /* PortTestViewController.xib */; };
+		672851CC187C40FB00AF3D2C /* HouseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 672851CA187C40FB00AF3D2C /* HouseCell.m */; };
+		672851CD187C40FB00AF3D2C /* HouseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672851CB187C40FB00AF3D2C /* HouseCell.xib */; };
 		F248F6281877E66A00DD1846 /* libbaidumapapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F248F6271877E66A00DD1846 /* libbaidumapapi.a */; };
 /* End PBXBuildFile section */
 
@@ -211,6 +213,9 @@
 		18C22B4F187296EB00109A00 /* PortTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortTestViewController.h; sourceTree = "<group>"; };
 		18C22B50187296EB00109A00 /* PortTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortTestViewController.m; sourceTree = "<group>"; };
 		18C22B51187296EB00109A00 /* PortTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortTestViewController.xib; sourceTree = "<group>"; };
+		672851C9187C40FB00AF3D2C /* HouseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseCell.h; sourceTree = "<group>"; };
+		672851CA187C40FB00AF3D2C /* HouseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseCell.m; sourceTree = "<group>"; };
+		672851CB187C40FB00AF3D2C /* HouseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseCell.xib; sourceTree = "<group>"; };
 		F248F6271877E66A00DD1846 /* libbaidumapapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbaidumapapi.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -248,6 +253,7 @@
 		185245D91867CB5000CD8A66 = {
 			isa = PBXGroup;
 			children = (
+				672851C8187C40FB00AF3D2C /* Cells */,
 				185246161867CC0500CD8A66 /* Sourses */,
 				185246151867CC0500CD8A66 /* Libs */,
 				185246141867CC0500CD8A66 /* Classes */,
@@ -545,6 +551,17 @@
 			path = Jsonkit;
 			sourceTree = "<group>";
 		};
+		672851C8187C40FB00AF3D2C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				672851C9187C40FB00AF3D2C /* HouseCell.h */,
+				672851CA187C40FB00AF3D2C /* HouseCell.m */,
+				672851CB187C40FB00AF3D2C /* HouseCell.xib */,
+			);
+			name = Cells;
+			path = TeamHouseApp/Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -624,6 +641,7 @@
 				185246241867CD1600CD8A66 /* LoadViewController.xib in Resources */,
 				1876EC9A1867D8F400750D72 /* mapapi.bundle in Resources */,
 				185245F01867CB5000CD8A66 /* InfoPlist.strings in Resources */,
+				672851CD187C40FB00AF3D2C /* HouseCell.xib in Resources */,
 				18C22B53187296EB00109A00 /* PortTestViewController.xib in Resources */,
 				184D62721872A8AB003FC154 /* HouseSellViewController.xib in Resources */,
 				184D626D1872A899003FC154 /* HouseRentViewController.xib in Resources */,
@@ -651,6 +669,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672851CC187C40FB00AF3D2C /* HouseCell.m in Sources */,
 				185246E51867D03200CD8A66 /* CycleScrollView.m in Sources */,
 				185245F61867CB5000CD8A66 /* AppDelegate.mm in Sources */,
 				185246DC1867D03200CD8A66 /* ASIAuthenticationDialog.m in Sources */,

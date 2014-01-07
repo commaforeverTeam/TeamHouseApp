@@ -9,6 +9,10 @@
 #import "CustomViewController.h"
 #import "RequestHelp.h"
 #import "ASIHTTPRequestDelegate.h"
-@interface HouseSourceViewController : CustomViewController<DataRequestDelegate,ASIHTTPRequestDelegate>
-
+@interface HouseSourceViewController : CustomViewController<DataRequestDelegate,ASIHTTPRequestDelegate,UITableViewDataSource,UITableViewDelegate>
+{
+    IBOutlet UIView *fatherView;
+    IBOutlet UITableView *myTableView;
+    
+}
 @end

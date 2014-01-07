@@ -10,9 +10,11 @@
 #import "JSONKit.h"
 #import "Contents.h"
 #import "ASIFormDataRequest.h"
+#import "HouseCell.h"
 @interface HouseSourceViewController ()
 {
     RequestHelp *dataRequest;
+    NSMutableArray *dataArr;
 }
 @end
 
@@ -23,6 +25,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         dataRequest = [[RequestHelp alloc]init];
+        dataArr = [[NSMutableArray alloc]initWithCapacity:10];
     }
     return self;
 }
@@ -39,17 +42,29 @@
     
     //个人中心接口   19293
     
+    
+    
+    [self requestData];
+    
+}
+
+
+#pragma mark- 接口请求   数据返回
+
+-(void)requestData
+{
     NSMutableDictionary *contentDic = [[NSMutableDictionary alloc] init];
-    [contentDic setObject:@"19293" forKey: @"userid"];
-    [contentDic setObject:@"yssd" forKey: @"password"];
+    [contentDic setObject:@"5510" forKey: @"userid"];
+    [contentDic setObject:@"sjht1" forKey: @"password"];
     
     
     
     
     NSMutableDictionary *sendDic2 = [[NSMutableDictionary alloc]initWithCapacity:10];
+    [sendDic2 setObject:@"20" forKey: @"pagesize"];
     [sendDic2 setObject:@"1" forKey: @"pageno"];
-    [sendDic2 setObject:@"116.41004950566" forKey: @"pos_x"];
-    [sendDic2 setObject:@"39.916979519873" forKey: @"pos_y"];
+    [sendDic2 setObject:@"116.41004950566" forKey: @"pos_y"];
+    [sendDic2 setObject:@"39.916979519873" forKey: @"pos_x"];
     
     
     NSMutableDictionary *sendDic = [[NSMutableDictionary alloc]initWithCapacity:10];
@@ -60,9 +75,6 @@
     
     [dataRequest setPostData:sendjsonString];
     [dataRequest connectionWithAddress:@"http://115.28.49.147:8080/fang/doJsonPageHouse.action"];
-    
-    
-    
 }
 
 -(void)requestFinished:(ASIHTTPRequest *)request
@@ -81,6 +93,31 @@
 -(void)connectionFailed
 {
     
+}
+
+#pragma mark- UITableViewDataSource,UITableViewDelegate
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 0;
+}
+-(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60;
+}
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = nil;
+    
+    HouseCell *mcell = nil;
+    if (mcell == nil) {
+        mcell = [[HouseCell alloc]initWithNibName:@"HouseCell" bundle:nil];
+    }
+    cell = (UITableViewCell *)mcell.view;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    [mcell setCellValue:[dataArr objectAtIndex:indexPath.row]];
+    
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning
