@@ -10,6 +10,7 @@
  
 @interface CustomNavigationController : UINavigationController<UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 {
+    NSDictionary * mydict;
     NSString *liufaliang;
 }
 @end

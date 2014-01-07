@@ -10,6 +10,8 @@
 #import "CustomNavigationController.h"
 #import "LoadViewController.h"
 #import "PortTestViewController.h"
+#import "CustomTabBarViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -29,7 +31,12 @@
 
     PortTestViewController *portView = [[PortTestViewController alloc]initWithNibName:@"PortTestViewController" bundle:nil];
     CustomNavigationController *Nav = [[CustomNavigationController alloc]initWithRootViewController:portView];
-    self.window.rootViewController = Nav;
+    
+    NSArray * array = [NSArray arrayWithObjects:Nav, nil];
+    CustomTabBarViewController * tabBarVC = [[CustomTabBarViewController alloc] init];
+    tabBarVC.controllers = array;
+    [tabBarVC hidenTabBarAndCustomBar:YES];
+    self.window.rootViewController = tabBarVC;
     
     
     
