@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1815EEC81876556000932072 /* CommenDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815EEC71876556000932072 /* CommenDataView.m */; };
-		184D62631872A76D003FC154 /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184D62611872A76D003FC154 /* UserInfoViewController.xib */; };
-		184D62681872A7D3003FC154 /* HouseSourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184D62661872A7D3003FC154 /* HouseSourceViewController.xib */; };
-		184D626D1872A899003FC154 /* HouseRentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184D626B1872A899003FC154 /* HouseRentViewController.xib */; };
-		184D62721872A8AB003FC154 /* HouseSellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184D62701872A8AB003FC154 /* HouseSellViewController.xib */; };
-		184D62771872AA68003FC154 /* PosionInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184D62751872AA68003FC154 /* PosionInfoViewController.xib */; };
 		185245E61867CB5000CD8A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185245E51867CB5000CD8A66 /* Foundation.framework */; };
 		185245E81867CB5000CD8A66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185245E71867CB5000CD8A66 /* CoreGraphics.framework */; };
 		185245EA1867CB5000CD8A66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185245E91867CB5000CD8A66 /* UIKit.framework */; };
@@ -25,7 +20,6 @@
 		185246011867CB5000CD8A66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185245E91867CB5000CD8A66 /* UIKit.framework */; };
 		185246091867CB5000CD8A66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185246071867CB5000CD8A66 /* InfoPlist.strings */; };
 		1852460B1867CB5000CD8A66 /* TeamHouseAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852460A1867CB5000CD8A66 /* TeamHouseAppTests.m */; };
-		185246241867CD1600CD8A66 /* LoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185246221867CD1600CD8A66 /* LoadViewController.xib */; };
 		185246261867CD8900CD8A66 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185246251867CD8900CD8A66 /* CFNetwork.framework */; };
 		185246281867CD9500CD8A66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185246271867CD9500CD8A66 /* QuartzCore.framework */; };
 		1852462A1867CD9F00CD8A66 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185246291867CD9F00CD8A66 /* MobileCoreServices.framework */; };
@@ -54,7 +48,6 @@
 		185246EF1867D03200CD8A66 /* SDWebDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185246DA1867D03200CD8A66 /* SDWebDataManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1876EC9A1867D8F400750D72 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1876EC981867D8F400750D72 /* mapapi.bundle */; };
 		1876EC9E186808EC00750D72 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876EC9D186808EC00750D72 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		187CC7C9187687B100AE2792 /* ChangePswViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187CC7C7187687B100AE2792 /* ChangePswViewController.xib */; };
 		18A7C76E186D953900C9067B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A7C76D186D953900C9067B /* test.png */; };
 		18C22B52187296EB00109A00 /* PortTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C22B50187296EB00109A00 /* PortTestViewController.m */; };
 		18C22B53187296EB00109A00 /* PortTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C22B51187296EB00109A00 /* PortTestViewController.xib */; };
@@ -78,6 +71,7 @@
 		F2BC6629187C4A75004DCCC8 /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BC6619187C4A75004DCCC8 /* UserInfoViewController.xib */; };
 		F2BC662D187C4A7F004DCCC8 /* ChangePswViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BC662B187C4A7F004DCCC8 /* ChangePswViewController.m */; };
 		F2BC662E187C4A7F004DCCC8 /* ChangePswViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BC662C187C4A7F004DCCC8 /* ChangePswViewController.xib */; };
+		F2BC6632187C4F3C004DCCC8 /* tabBarBackImage_Cn.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BC6631187C4F3C004DCCC8 /* tabBarBackImage_Cn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,11 +88,6 @@
 		1815EEC61876556000932072 /* CommenDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommenDataView.h; sourceTree = "<group>"; };
 		1815EEC71876556000932072 /* CommenDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommenDataView.m; sourceTree = "<group>"; };
 		182631D7186C0F9700D61D77 /* Contents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contents.h; sourceTree = "<group>"; };
-		184D62611872A76D003FC154 /* UserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
-		184D62661872A7D3003FC154 /* HouseSourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseSourceViewController.xib; sourceTree = "<group>"; };
-		184D626B1872A899003FC154 /* HouseRentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseRentViewController.xib; sourceTree = "<group>"; };
-		184D62701872A8AB003FC154 /* HouseSellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseSellViewController.xib; sourceTree = "<group>"; };
-		184D62751872AA68003FC154 /* PosionInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PosionInfoViewController.xib; sourceTree = "<group>"; };
 		185245E21867CB5000CD8A66 /* TeamHouseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamHouseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185245E51867CB5000CD8A66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		185245E71867CB5000CD8A66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,7 +104,6 @@
 		185246061867CB5000CD8A66 /* TeamHouseAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeamHouseAppTests-Info.plist"; sourceTree = "<group>"; };
 		185246081867CB5000CD8A66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1852460A1867CB5000CD8A66 /* TeamHouseAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamHouseAppTests.m; sourceTree = "<group>"; };
-		185246221867CD1600CD8A66 /* LoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadViewController.xib; sourceTree = "<group>"; };
 		185246251867CD8900CD8A66 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		185246271867CD9500CD8A66 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		185246291867CD9F00CD8A66 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -198,7 +186,6 @@
 		1876EC981867D8F400750D72 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
 		1876EC9C186808EC00750D72 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		1876EC9D186808EC00750D72 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		187CC7C7187687B100AE2792 /* ChangePswViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePswViewController.xib; sourceTree = "<group>"; };
 		18A7C76D186D953900C9067B /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		18C22B4F187296EB00109A00 /* PortTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortTestViewController.h; sourceTree = "<group>"; };
 		18C22B50187296EB00109A00 /* PortTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortTestViewController.m; sourceTree = "<group>"; };
@@ -235,6 +222,7 @@
 		F2BC662A187C4A7F004DCCC8 /* ChangePswViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePswViewController.h; sourceTree = "<group>"; };
 		F2BC662B187C4A7F004DCCC8 /* ChangePswViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePswViewController.m; sourceTree = "<group>"; };
 		F2BC662C187C4A7F004DCCC8 /* ChangePswViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePswViewController.xib; sourceTree = "<group>"; };
+		F2BC6631187C4F3C004DCCC8 /* tabBarBackImage_Cn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBackImage_Cn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -409,6 +397,7 @@
 		185246161867CC0500CD8A66 /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
+				F2BC6631187C4F3C004DCCC8 /* tabBarBackImage_Cn.png */,
 				18A7C76D186D953900C9067B /* test.png */,
 			);
 			name = Sourses;
@@ -657,24 +646,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184D62771872AA68003FC154 /* PosionInfoViewController.xib in Resources */,
-				185246241867CD1600CD8A66 /* LoadViewController.xib in Resources */,
 				1876EC9A1867D8F400750D72 /* mapapi.bundle in Resources */,
 				185245F01867CB5000CD8A66 /* InfoPlist.strings in Resources */,
 				F2BC662E187C4A7F004DCCC8 /* ChangePswViewController.xib in Resources */,
 				F2BC65FF187C4A5B004DCCC8 /* HouseCell.xib in Resources */,
 				18C22B53187296EB00109A00 /* PortTestViewController.xib in Resources */,
+				F2BC6632187C4F3C004DCCC8 /* tabBarBackImage_Cn.png in Resources */,
 				F2BC6625187C4A75004DCCC8 /* LoadViewController.xib in Resources */,
-				184D62721872A8AB003FC154 /* HouseSellViewController.xib in Resources */,
 				F2BC6627187C4A75004DCCC8 /* PosionInfoViewController.xib in Resources */,
-				184D626D1872A899003FC154 /* HouseRentViewController.xib in Resources */,
 				185246EA1867D03200CD8A66 /* readme.txt in Resources */,
-				184D62631872A76D003FC154 /* UserInfoViewController.xib in Resources */,
 				185245F81867CB5000CD8A66 /* Images.xcassets in Resources */,
 				18A7C76E186D953900C9067B /* test.png in Resources */,
-				187CC7C9187687B100AE2792 /* ChangePswViewController.xib in Resources */,
 				F2BC6623187C4A75004DCCC8 /* HouseSourceViewController.xib in Resources */,
-				184D62681872A7D3003FC154 /* HouseSourceViewController.xib in Resources */,
 				F2BC6629187C4A75004DCCC8 /* UserInfoViewController.xib in Resources */,
 				F2BC661F187C4A75004DCCC8 /* HouseRentViewController.xib in Resources */,
 				F2BC6621187C4A75004DCCC8 /* HouseSellViewController.xib in Resources */,
