@@ -64,8 +64,8 @@
     
     
     [dataRequest setPostData:sendjsonString];
-    [dataRequest connectionWithAddress:@"http://115.28.49.147:8080/fang/doJsonGetDefdoclist.action"];
-//    [dataRequest connectionWithAddress:@"http://115.28.49.147:8080/fang/doJsonGetDefdoc.action"];
+//    [dataRequest connectionWithAddress:@"http://115.28.49.147:8080/fang/doJsonGetDefdoclist.action"];
+    [dataRequest connectionWithAddress:@"http://115.28.49.147:8080/fang/doJsonGetDefdoc.action"];
     
     
 

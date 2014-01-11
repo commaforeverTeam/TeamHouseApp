@@ -15,6 +15,7 @@
 #import "HouseRentViewController.h"
 #import "HouseSellViewController.h"
 #import "CommenDataView.h"
+#import "SendRentInfoViewController.h"
 @interface PortTestViewController ()
 {
     NSArray *portArr;
@@ -35,7 +36,7 @@
 {
     [super viewDidLoad];
     NSLog(@"asdfasdfasf");
-    portArr = [[NSArray alloc]initWithObjects:@"用户登录",@"修改密码",@"位置定位",@"信息推送",@"房源首页",@"出租房屋",@"出售房屋",@"自定义数据", nil];
+    portArr = [[NSArray alloc]initWithObjects:@"用户登录",@"修改密码",@"位置定位",@"信息推送",@"房源首页",@"出租房屋",@"出售房屋",@"自定义数据",@"出租发布", nil];
     [myTableView reloadData];
 }
 
@@ -85,6 +86,9 @@
         CommenDataView *loadView = [[CommenDataView alloc]init];
         [self.navigationController pushViewController:loadView animated:YES];
         
+    }else if (d == 8){
+        SendRentInfoViewController *loadView = [[SendRentInfoViewController alloc]init];
+        [self.navigationController pushViewController:loadView animated:YES];
     }
 }
 

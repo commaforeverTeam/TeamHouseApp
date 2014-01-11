@@ -37,7 +37,7 @@
     NSLog(@"出售房屋");
     
     
-    //个人中心接口   19293
+    //
     
     NSMutableDictionary *contentDic = [[NSMutableDictionary alloc] init];
     [contentDic setObject:@"19293" forKey: @"userid"];
@@ -47,6 +47,7 @@
     
     
     NSMutableDictionary *sendDic2 = [[NSMutableDictionary alloc]initWithCapacity:10];
+    [sendDic2 setObject:@"5" forKey:@"pagesize"];
     [sendDic2 setObject:@"1" forKey: @"pageno"];
     [sendDic2 setObject:@"116.41004950566" forKey: @"pos_x"];
     [sendDic2 setObject:@"39.916979519873" forKey: @"pos_y"];

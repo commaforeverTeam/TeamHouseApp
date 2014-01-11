@@ -67,7 +67,9 @@
 		18A7C76E186D953900C9067B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A7C76D186D953900C9067B /* test.png */; };
 		18C22B52187296EB00109A00 /* PortTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C22B50187296EB00109A00 /* PortTestViewController.m */; };
 		18C22B53187296EB00109A00 /* PortTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C22B51187296EB00109A00 /* PortTestViewController.xib */; };
-		F248F6281877E66A00DD1846 /* libbaidumapapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F248F6271877E66A00DD1846 /* libbaidumapapi.a */; };
+		72D5E9941880EF0A00896F50 /* libbaidumapapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D5E9931880EF0A00896F50 /* libbaidumapapi.a */; };
+		72D5E99D1880F54000896F50 /* SendRentInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D5E99B1880F54000896F50 /* SendRentInfoViewController.m */; };
+		72D5E99E1880F54000896F50 /* SendRentInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D5E99C1880F54000896F50 /* SendRentInfoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,7 +213,10 @@
 		18C22B4F187296EB00109A00 /* PortTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortTestViewController.h; sourceTree = "<group>"; };
 		18C22B50187296EB00109A00 /* PortTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortTestViewController.m; sourceTree = "<group>"; };
 		18C22B51187296EB00109A00 /* PortTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortTestViewController.xib; sourceTree = "<group>"; };
-		F248F6271877E66A00DD1846 /* libbaidumapapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbaidumapapi.a; sourceTree = "<group>"; };
+		72D5E9931880EF0A00896F50 /* libbaidumapapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbaidumapapi.a; path = TeamHouseApp/libbaidumapapi.a; sourceTree = SOURCE_ROOT; };
+		72D5E99A1880F54000896F50 /* SendRentInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendRentInfoViewController.h; sourceTree = "<group>"; };
+		72D5E99B1880F54000896F50 /* SendRentInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendRentInfoViewController.m; sourceTree = "<group>"; };
+		72D5E99C1880F54000896F50 /* SendRentInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendRentInfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,7 +231,7 @@
 				185246281867CD9500CD8A66 /* QuartzCore.framework in Frameworks */,
 				185246261867CD8900CD8A66 /* CFNetwork.framework in Frameworks */,
 				185245E81867CB5000CD8A66 /* CoreGraphics.framework in Frameworks */,
-				F248F6281877E66A00DD1846 /* libbaidumapapi.a in Frameworks */,
+				72D5E9941880EF0A00896F50 /* libbaidumapapi.a in Frameworks */,
 				185245EA1867CB5000CD8A66 /* UIKit.framework in Frameworks */,
 				185245E61867CB5000CD8A66 /* Foundation.framework in Frameworks */,
 			);
@@ -358,6 +363,9 @@
 				184D62701872A8AB003FC154 /* HouseSellViewController.xib */,
 				1815EEC61876556000932072 /* CommenDataView.h */,
 				1815EEC71876556000932072 /* CommenDataView.m */,
+				72D5E99A1880F54000896F50 /* SendRentInfoViewController.h */,
+				72D5E99B1880F54000896F50 /* SendRentInfoViewController.m */,
+				72D5E99C1880F54000896F50 /* SendRentInfoViewController.xib */,
 			);
 			name = Classes;
 			path = TeamHouseApp/Classes;
@@ -531,7 +539,7 @@
 		1876EC961867D8F400750D72 /* Release-iphoneos */ = {
 			isa = PBXGroup;
 			children = (
-				F248F6271877E66A00DD1846 /* libbaidumapapi.a */,
+				72D5E9931880EF0A00896F50 /* libbaidumapapi.a */,
 			);
 			path = "Release-iphoneos";
 			sourceTree = "<group>";
@@ -621,6 +629,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184D62771872AA68003FC154 /* PosionInfoViewController.xib in Resources */,
+				72D5E99E1880F54000896F50 /* SendRentInfoViewController.xib in Resources */,
 				185246241867CD1600CD8A66 /* LoadViewController.xib in Resources */,
 				1876EC9A1867D8F400750D72 /* mapapi.bundle in Resources */,
 				185245F01867CB5000CD8A66 /* InfoPlist.strings in Resources */,
@@ -670,6 +679,7 @@
 				185246DF1867D03200CD8A66 /* ASIDownloadCache.m in Sources */,
 				185246EC1867D03200CD8A66 /* SDImageView+SDWebCache.m in Sources */,
 				185246E21867D03200CD8A66 /* ASIInputStream.m in Sources */,
+				72D5E99D1880F54000896F50 /* SendRentInfoViewController.m in Sources */,
 				185246DE1867D03200CD8A66 /* ASIDataDecompressor.m in Sources */,
 				185246EB1867D03200CD8A66 /* SDDataCache.m in Sources */,
 				185246EE1867D03200CD8A66 /* SDWebDataDownloader.m in Sources */,
@@ -809,6 +819,8 @@
 					"$(inherited)",
 					"/Users/apple/Desktop/我的文件夹/0逗点永续/3房产/TeamHouseApp/TeamHouseApp/Libs/MapLib/libs/Release-iphoneos",
 					"/Users/lirenbing/Documents/commaforever/WorkSpace/房产app/TeamHouseApp/TeamHouseApp/Libs/MapLib/libs/Release-iphoneos",
+					/Users/newhrmacmini/Desktop,
+					/Users/newhrmacmini/Movies/TeamHouseApp/TeamHouseApp,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -827,6 +839,8 @@
 					"$(inherited)",
 					"/Users/apple/Desktop/我的文件夹/0逗点永续/3房产/TeamHouseApp/TeamHouseApp/Libs/MapLib/libs/Release-iphoneos",
 					"/Users/lirenbing/Documents/commaforever/WorkSpace/房产app/TeamHouseApp/TeamHouseApp/Libs/MapLib/libs/Release-iphoneos",
+					/Users/newhrmacmini/Desktop,
+					/Users/newhrmacmini/Movies/TeamHouseApp/TeamHouseApp,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
